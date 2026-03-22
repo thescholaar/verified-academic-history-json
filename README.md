@@ -1,8 +1,10 @@
 # verified-academic-history-json
-Machine-readable academic history, thesis metadata, and scholarly profile record for research visibility and credential verification.
-# Verified Academic History and Thesis Metadata
 
-This repository contains a machine-readable academic record and related scholarly metadata for research visibility, credential verification, and academic attribution.
+Machine-readable academic history, thesis metadata, and scholarly profile record for research visibility and credential verification.
+
+## Verified Academic History and Thesis Metadata
+
+This repository contains a machine-readable academic record and related scholarly metadata intended to support research visibility, credential verification, academic attribution, and structured record preservation.
 
 ## Canonical Scholarly Record
 
@@ -13,7 +15,7 @@ This repository contains a machine-readable academic record and related scholarl
 
 ## Repository Contents
 
-- `justin_gamache_academic_record.json` — structured academic history, progress data, transcript-derived fields, and scholarly profile references
+- `justin_gamache_academic_record.json` — structured academic history, program progress data, transcript-derived fields, and scholarly profile references
 - supporting metadata linking the machine-readable file to its canonical scholarly record
 
 ## Purpose
@@ -28,6 +30,6 @@ This repository is intended to support:
 
 ## Notes
 
-- This repository is for academic and scholarly identification purposes.
-- Redacted or unreadable fields are preserved cautiously in the JSON file.
+- This repository is provided for academic, scholarly, and identification-related purposes.
+- Redacted, restricted, or unreadable fields are represented cautiously in the JSON record.
 - The DOI-linked ResearchGate record remains the primary citation anchor for the underlying scholarly metadata.
