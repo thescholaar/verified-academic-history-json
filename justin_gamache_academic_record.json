@@ -1,0 +1,334 @@
+{
+  "record_type": "academic_progress_and_transcript_summary",
+  "institution": "University of Phoenix",
+  "student": {
+    "name": "Justin A. Gamache",
+    "display_name_variants": [
+      "JUSTIN GAMACHE",
+      "Justin A. Gamache"
+    ],
+    "student_number": "redacted"
+  },
+  "documents": {
+    "progress_cards": [
+      {
+        "program": "Doctor of Education",
+        "credits_completed": 45,
+        "credits_required": 54,
+        "completion_percentage_displayed": 83,
+        "source_type": "progress card image"
+      },
+      {
+        "program": "Post Masters Certificate in Educational Technology",
+        "credits_completed": 12,
+        "credits_required": 15,
+        "completion_percentage_displayed": 80,
+        "source_type": "progress card image"
+      }
+    ],
+    "transcript": {
+      "document_type": "Unofficial Transcript",
+      "official_use_note": "Not For Official Use",
+      "print_date": "2026-02-16",
+      "record_of": "Justin A. Gamache",
+      "enrollment_status": "Active-Full Time",
+      "first_date_of_attendance": "2021-08-10",
+      "enrollment_status_effective_date": "2023-06-06",
+      "program_gpas": {
+        "MSP": 3.92,
+        "EDD": 3.87,
+        "CERT_D_ET": 4.0
+      },
+      "prior_schools_attended": [
+        {
+          "institution": "CONCORDIA UNIVERSITY - PORTLAND",
+          "degree_code": "ME"
+        },
+        {
+          "institution": "LIBERTY UNIVERSITY",
+          "degree_code": "BS"
+        }
+      ],
+      "coursework": [
+        {
+          "term": "08/2021",
+          "course_id": "PSYCH/599",
+          "course_title": "Foundations of Graduate Study in Psychology",
+          "grade": "A",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 12.0
+        },
+        {
+          "term": "09/2021",
+          "course_id": "PSYCH/600",
+          "course_title": "Developmental Psychology",
+          "grade": "A-",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 11.01
+        },
+        {
+          "term": "11/2021",
+          "course_id": "PSYCH/630",
+          "course_title": "Physiological Psychology",
+          "grade": "A-",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 11.01
+        },
+        {
+          "term": "12/2021",
+          "course_id": "PSYCH/645",
+          "course_title": "Personality Theories",
+          "grade": "A",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 12.0
+        },
+        {
+          "term": "02/2022",
+          "course_id": "PSYCH/640",
+          "course_title": "Cognitive Psychology",
+          "grade": "A",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 12.0
+        },
+        {
+          "term": "03/2022",
+          "course_id": "PSYCH/635",
+          "course_title": "Psychology of Learning",
+          "grade": "A",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 12.0
+        },
+        {
+          "term": "05/2022",
+          "course_id": "PSYCH/620",
+          "course_title": "Multicultural and Social Issues in Psychology",
+          "grade": "A",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 12.0
+        },
+        {
+          "term": "06/2022",
+          "course_id": "PSYCH/660",
+          "course_title": "Ethics and Professional Issues",
+          "grade": "A",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 12.0
+        },
+        {
+          "term": "07/2022",
+          "course_id": "PSYCH/610",
+          "course_title": "Research Methods in Psychology",
+          "grade": "A",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 12.0
+        },
+        {
+          "term": "09/2022",
+          "course_id": "PSYCH/625",
+          "course_title": "Statistics for the Behavior Sciences",
+          "grade": "A",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 12.0
+        },
+        {
+          "term": "11/2022",
+          "course_id": "PSYCH/655",
+          "course_title": "Psychometrics",
+          "grade": "A",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 12.0
+        },
+        {
+          "term": "01/2023",
+          "course_id": "PSYCH/650",
+          "course_title": "Psychopathology",
+          "grade": "A",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 12.0
+        },
+        {
+          "term": "02/2023",
+          "course_id": "PSYCH/665",
+          "course_title": "Integrative Capstone: Psychology Past and Present",
+          "grade": "A-",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 11.01
+        },
+        {
+          "term": "06/2023",
+          "course_id": "EDD/700",
+          "course_title": "Introduction to Education Administration in Doctoral Study",
+          "grade": "A",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 12.0
+        },
+        {
+          "term": "08/2023",
+          "course_id": "LDR/711A",
+          "course_title": "Leadership Theory and Practice",
+          "grade": "A-",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 11.01
+        },
+        {
+          "term": "10/2023",
+          "course_id": "RES/709",
+          "course_title": "Research Conceptualization and Design",
+          "grade": "A",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 12.0
+        },
+        {
+          "term": "12/2023",
+          "course_id": "DOC/714S",
+          "course_title": "Symposium I",
+          "grade": "A-",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 11.01
+        },
+        {
+          "term": "02/2024",
+          "course_id": "RES/724",
+          "course_title": "Qualitative Methods and Design",
+          "grade": "A",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 12.0
+        },
+        {
+          "term": "04/2024",
+          "course_id": "RES/710",
+          "course_title": "Statistical Research Methods and Design I",
+          "grade": "A",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 12.0
+        },
+        {
+          "term": "07/2024",
+          "course_id": "EDD/724",
+          "course_title": "Instructional Leadership",
+          "grade": "A",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 12.0
+        },
+        {
+          "term": "09/2024",
+          "course_id": "EDD/722",
+          "course_title": "The Legal Context of Education",
+          "grade": "A",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 12.0
+        },
+        {
+          "term": "11/2024",
+          "course_id": "DOC/715",
+          "course_title": "Doctoral Seminar I",
+          "grade": "B",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 9.0
+        },
+        {
+          "term": "01/2025",
+          "course_id": "EDD/731",
+          "course_title": "The Economics of Education",
+          "grade": "A",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 12.0
+        },
+        {
+          "term": "03/2025",
+          "course_id": "EDD/711",
+          "course_title": "Educational Technology Research",
+          "grade": "A",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 12.0
+        },
+        {
+          "term": "05/2025",
+          "course_id": "DOC/723",
+          "course_title": "Doctoral Seminar II",
+          "grade": "P",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 0.0
+        },
+        {
+          "term": "07/2025",
+          "course_id": "EDT/723",
+          "course_title": "Instructional Media and Design Techniques",
+          "grade": "A",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 12.0
+        },
+        {
+          "term": "09/2025",
+          "course_id": "EDT/732",
+          "course_title": "Integrating Technology and Curriculum",
+          "grade": "A",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 12.0
+        },
+        {
+          "term": "12/2025",
+          "course_id": "DOC/741",
+          "course_title": "Doctoral Dissertation",
+          "grade": "P",
+          "credits_attempted": 3.0,
+          "credits_earned": 3.0,
+          "quality_points": 0.0
+        }
+      ],
+      "gpa_summary": {
+        "total_cumulative_credits": 84.0,
+        "credits_attempted": 84.0,
+        "credits_earned": 84.0,
+        "uopx_cumulative_gpa": 3.9,
+        "quality_points": 304.05
+      },
+      "degrees_certificates": [
+        {
+          "credential": "Master of Science in Psychology",
+          "honors": "WITH DISTINCTION",
+          "completed_date": "2023-03-27",
+          "conferred_date": "2023-03"
+        }
+      ]
+    }
+  },
+  "source_images_used": [
+    "7b8c17cf-72ec-47d2-abd7-08feedfd2d7e.png",
+    "f520a983-8350-4578-b617-795ceafcb209.png",
+    "585897c1-1fdb-4daa-8a34-42f77b5d1251.png",
+    "425c8205-2488-43f8-9992-997c61f7c4f5.png"
+  ],
+  "notes": [
+    "Student number was visibly redacted in the source image and is therefore stored as 'redacted'.",
+    "This JSON is a structured transcription of visible data from the provided images.",
+    "Program progress card percentages are stored as displayed values from the images."
+  ]
+}
