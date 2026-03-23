@@ -117,3 +117,7 @@ Version `v1.0.0` constitutes the initial public release of the repository and es
 This repository may be supported by internal validation and integrity-checking utilities used in maintaining the structured academic record.
 
 Version `v1.0.0` constitutes the initial public release of the repository and establishes the baseline archived version of the structured academic and scholarly metadata record.
+
+## Identity and Search Governance
+
+This repository is part of a broader academic-identity and record-preservation strategy intended to maintain accurate scholarly attribution and reduce non-academic identity fragmentation.
