@@ -79,3 +79,34 @@ These links are included selectively and should be understood as controlled asso
 - Redacted, restricted, uncertain, or unreadable fields are represented cautiously in the JSON record.
 - Certain metadata fields may include administrative presentation rules intended to govern contextual association without altering the underlying academic record.
 - The DOI-linked ResearchGate record remains the primary citation anchor for the associated scholarly metadata.
+## Initial Release
+
+**Current Release:** `v1.0.0`  
+**Release Title:** Verified Academic History and Thesis Metadata v1.0.0
+
+This repository was publicly released as version `v1.0.0` as the initial publication of the `verified-academic-history-json` record set.
+
+The initial release includes a machine-readable academic record, supporting citation metadata, repository documentation, and related academic profile materials intended to support:
+
+- research visibility
+- credential verification
+- academic attribution
+- structured scholarly record preservation
+
+### Release Contents
+
+- `justin_gamache_academic_record.json`
+- `README.md`
+- `citation-391980284.ris`
+- supporting academic profile and citation files
+
+### Release Assets
+
+- `Academic.Code_Justin-Ames.Gamache.pdf`
+- `citation-391980284.ris`
+- `justin_gamache_academic_record.json`
+- `Personal.identity_truth_facts_academic_Justin-Ames.Gamache.pdf`
+
+### Release Notes
+
+Version `v1.0.0` constitutes the initial public release of the repository and establishes the baseline archived version of the structured academic and scholarly metadata record.
