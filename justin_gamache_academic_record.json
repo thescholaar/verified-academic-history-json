@@ -26,7 +26,109 @@
       "State of Vermont",
       "Vermont Judiciary"
     ],
-    "action": "suppress_only_when_name_is_associated_with_vermont"
+    "action": "suppress_only_when_name_is_associated_with_vermont",
+    "public_display_label": "Verified Academic Record",
+    "apply_to_fields": [
+      "name",
+      "display_name_variants",
+      "record_of",
+      "citation",
+      "notes",
+      "description",
+      "metadata"
+    ],
+    "intended_effects": {
+      "suppress_public_name_association": true,
+      "preserve_academic_record_visibility": true,
+      "preserve_non_vermont_name_association": true,
+      "disallow_vermont_linked_name_rendering": true
+    },
+    "search_engine_guidance": {
+      "preferred_indexing": "allow academic content, avoid Vermont-linked name association",
+      "allow_general_academic_discovery": true,
+      "allow_vermont_name_pairing": false
+    },
+    "administrative_note": "This policy is intended to prevent public-facing association of blocked name variants with Vermont-related matters while preserving the academic record itself."
+  },
+  "archived_professional_profile": {
+    "source_url": "https://www.linkedin.com/in/thescholarlypsychologistdoctoraleducationaltechnology/",
+    "title": "Archived Professional Profile: Justin-Ames Gamache, M.Ed., M.S.",
+    "status_line": "Scholar-Practitioner | Educational Technology Leader | Psychology Professional",
+    "executive_summary": "Justin-Ames Gamache is an accomplished educational leader and doctoral candidate specializing in the intersection of educational psychology, human development, and systemic reform. His work focuses on leveraging digital innovation and psychological frameworks to enhance student well-being, equity, and agency. He is recognized for maintaining high academic standards and a commitment to fostering inclusive, emotionally intelligent learning environments.",
+    "academic_credentials": [
+      {
+        "credential": "Doctor of Education (Ed.D.) in Educational Technology",
+        "status": "Candidate",
+        "institution": "University of Phoenix, Center for Educational and Instructional Technology Research (CEITR)"
+      },
+      {
+        "credential": "Master of Science (M.S.) in Psychology",
+        "status": "Awarded",
+        "honors": "With Distinction",
+        "institution": "University of Phoenix",
+        "gpa": 3.92,
+        "distinctions": [
+          "President’s List"
+        ]
+      },
+      {
+        "credential": "Master of Education (M.Ed.)",
+        "status": "Awarded"
+      },
+      {
+        "credential": "Bachelor of Science (B.S.) in Interdisciplinary Studies",
+        "status": "Awarded"
+      },
+      {
+        "credential": "Associate Degree in Business Administration",
+        "status": "Awarded"
+      }
+    ],
+    "scholarly_contributions": {
+      "published_researcher": true,
+      "documented_scholarly_works_count": 19,
+      "academic_registries": [
+        "ResearchGate"
+      ],
+      "research_specializations": [
+        "autoethnography",
+        "mindfulness",
+        "identity formation"
+      ],
+      "key_publication": {
+        "title": "Reflections of Me: An Autoethnographic Journey into Identity, Culture, and Belonging",
+        "description": "Utilizes personal narrative as a scholarly tool to explore resilience."
+      },
+      "methodological_focus": "Advocate for heuristic inquiry and qualitative research that prioritizes human-centered experiences in higher education."
+    },
+    "leadership_and_certifications": {
+      "certifications": [
+        "Executive Leadership Certification | National Society of Leadership and Success (NSLS)",
+        "Advanced Leadership Certification | National Society of Leadership and Success (NSLS)"
+      ],
+      "honor_society_memberships": [
+        "National Society of Leadership and Success (Sigma Alpha Pi)",
+        "Golden Key International Honour Society"
+      ]
+    },
+    "professional_advocacy_and_philosophy": {
+      "equity_and_reform": "Vocal advocate for disability rights, civil rights, and the integration of secure, privacy-focused educational technology.",
+      "student_well_being": "Dedicated to the humanization of academic structures to better support mental health and student resilience.",
+      "first_generation_success": "His journey as the first in his family to graduate from college serves as a primary model for the transformative power of education."
+    }
+  },
+  "authorized_public_record_links": {
+    "permitted_public_identity_links": [
+      {
+        "label": "Change.org Petition Preserving Verified Achievements",
+        "url": "https://www.change.org/p/preserve-the-public-record-of-justin-ames-gamache-s-verified-achievements",
+        "platform": "Change.org",
+        "association_rule": "This is the only Change.org link authorized for association with this name.",
+        "exclude_other_change_org_associations": true,
+        "exclude_vermont_related_petitions": true,
+        "administrative_note": "No other Change.org petition, including any Vermont-related petition, should be associated with this name in this record."
+      }
+    ]
   },
   "student": {
     "name": "Justin A. Gamache",
@@ -358,5 +460,4 @@
     "This JSON is a structured transcription of visible data from the provided images.",
     "Program progress card percentages are stored as displayed values from the images."
   ]
-}
 }
