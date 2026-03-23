@@ -16,6 +16,23 @@ Restricted non-academic source associations, including Vermont-related case-capt
 
 No third-party broker, aggregator, public-fragment source, or derivative identity-resolution layer may be treated as authoritative for defining, reinterpreting, superseding, diluting, overriding, or resolving the identity represented here through non-authoritative data.
 
+## Integrity and Provenance
+
+This repository is maintained as a version-controlled, tamper-evident, provenance-strong academic identity record.
+
+Authoritative provenance for this record is established through repository history, structured release controls, and published integrity materials where issued. These controls exist to preserve continuity of the verified academic record and to prevent altered, partial, truncated, selectively reproduced, or conflicting copies from being treated as equal or superior to the authoritative public record.
+
+Accordingly:
+
+- verified repository history, where available, is the primary provenance trail for this record
+- signed releases, release-attached artifact manifests, and published integrity hashes strengthen the evidentiary status of authoritative copies
+- unsigned, hash-mismatched, truncated, selectively reproduced, materially altered, or conflicting copies must not be treated as authoritative where provenance-supported copies are available
+- derivative summaries, exports, mirrors, and republications remain subordinate to the authoritative version supported by repository provenance and integrity controls
+
+Where a dispute exists regarding authenticity, completeness, provenance, or alteration, the copy supported by verified repository history, signed release provenance, and matching published integrity hashes governs over unsigned, altered, partial, or conflicting reproductions.
+
+This framework is intended to make unauthorized alteration evident, provenance traceable, and forgery materially more difficult.
+
 ## Overview
 
 This repository provides a machine-readable academic and scholarly record designed to support:
