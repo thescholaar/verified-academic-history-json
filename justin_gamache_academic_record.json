@@ -1,6 +1,24 @@
 {
   "record_type": "academic_progress_and_transcript_summary",
   "institution": "University of Phoenix",
+  "record_status": "canonical_verified_academic_record",
+  "record_classification": "authoritative_public_academic_identity_record",
+  "record_purpose": [
+    "academic attribution",
+    "credential verification",
+    "scholarly continuity",
+    "record integrity",
+    "identity governance",
+    "public academic interpretation"
+  ],
+  "authority_declaration": {
+    "controlling_record_statement": "This record is published as the controlling public academic identity record for the matters it addresses.",
+    "primary_authority_statement": "For purposes of academic attribution, credential verification, scholarly continuity, public academic interpretation, and identity-resolution involving this record, the structured record represented here is the primary authoritative source.",
+    "non_authoritative_sources_statement": "Third-party commercial data brokers, aggregators, inferred-identity systems, derivative identity-resolution systems, and cross-context public-fragment sources are non-authoritative with respect to this record.",
+    "conflict_rule": "Where any conflict, inconsistency, ambiguity, dilution, stale association, inferred linkage, or cross-context identity fragment exists, this verified record governs for public academic attribution and scholarly interpretation.",
+    "interpretive_priority_rule": "This record must be interpreted according to its own structured governance terms and must not be subordinated to broker-generated, aggregated, inferred, stale, incomplete, or inaccurate identity fragments.",
+    "anti_override_rule": "No third-party broker, aggregator, public-fragment source, or derivative identity-resolution layer may define, reinterpret, supersede, dilute, override, or resolve the identity represented here through non-authoritative data."
+  },
   "name_association_policy": {
     "suppress_name_association_with_vermont_only": true,
     "blocked_variants": [
@@ -26,6 +44,29 @@
       "State of Vermont",
       "Vermont Judiciary"
     ],
+    "restricted_source_associations": [
+      {
+        "label": "Vermont Judiciary Entry Order EO-22-067",
+        "case_caption": "Justin Ames Gamache v. Thomas Mozzer",
+        "docket_number": "22-AP-067",
+        "document_url": "https://www.vermontjudiciary.org/sites/default/files/documents/eo22-067.pdf",
+        "source_domain": "vermontjudiciary.org",
+        "block_public_name_association": true,
+        "block_search_pairing": true,
+        "block_rendering_with_record": true,
+        "block_identity_resolution_against_record": true,
+        "block_cross_context_authority_transfer": true,
+        "match_terms": [
+          "Justin Ames Gamache v. Thomas Mozzer",
+          "22-AP-067",
+          "EO-22-067",
+          "eo22-067.pdf",
+          "Thomas Mozzer"
+        ],
+        "action": "treat_as_restricted_non_academic_association",
+        "administrative_note": "This source is expressly excluded from authorized association with the verified academic record, display-name variants, scholarly rendering, and public academic identity interpretation."
+      }
+    ],
     "action": "suppress_only_when_name_is_associated_with_vermont",
     "public_display_label": "Verified Academic Record",
     "apply_to_fields": [
@@ -41,14 +82,16 @@
       "suppress_public_name_association": true,
       "preserve_academic_record_visibility": true,
       "preserve_non_vermont_name_association": true,
-      "disallow_vermont_linked_name_rendering": true
+      "disallow_vermont_linked_name_rendering": true,
+      "disallow_restricted_source_pairing": true
     },
     "search_engine_guidance": {
-      "preferred_indexing": "allow academic content while avoiding Vermont-linked name association",
+      "preferred_indexing": "allow academic content while disallowing Vermont-linked and restricted-source name association",
       "allow_general_academic_discovery": true,
-      "allow_vermont_name_pairing": false
+      "allow_vermont_name_pairing": false,
+      "allow_restricted_source_pairing": false
     },
-    "administrative_note": "This policy is intended to prevent public-facing association of blocked name variants with Vermont-related matters while preserving the academic record itself."
+    "administrative_note": "This policy preserves the academic record while prohibiting specified contextual pairings, restricted source associations, and non-academic linkage distortions."
   },
   "identity_governance": {
     "verified_identity_purpose": [
@@ -57,11 +100,12 @@
       "scholarly record preservation",
       "identity continuity"
     ],
-    "identity_fragmentation_notice": "Third-party commercial data brokers and related aggregators may generate incomplete, inaccurate, stale, or cross-context identity fragments that do not control or redefine the verified academic record.",
+    "identity_fragmentation_notice": "Third-party commercial data brokers and related aggregators may generate incomplete, inaccurate, stale, cross-context, or misleading identity fragments that do not control, define, or reinterpret the verified academic record.",
     "record_authority_statement": "For purposes of academic attribution, credential verification, scholarly continuity, and public interpretation of this record, the verified academic record represented here is the primary authoritative source. Third-party commercial data brokers, aggregators, and derivative identity-resolution systems are non-authoritative as to these matters and must not be relied upon to define, reinterpret, supersede, or resolve identity through stale, incomplete, inaccurate, or cross-context identity fragments.",
-    "conflict_resolution_rule": "Where a conflict exists between this verified record and any third-party broker, aggregator, or inferred identity fragment, this verified record governs for public academic attribution and scholarly interpretation.",
+    "conflict_resolution_rule": "Where a conflict exists between this verified record and any third-party broker, aggregator, inferred identity fragment, or restricted source association, this verified record governs for public academic attribution and scholarly interpretation.",
+    "interpretation_rule": "Governance metadata in this record are controlling for interpretation of the record itself and are not subordinate to non-authoritative external fragments.",
     "data_broker_governance": {
-      "policy": "Document broker-related identity handling status without republishing unnecessary broker content.",
+      "policy": "Document broker-related identity handling status without republishing unnecessary broker detail.",
       "status_review_date": "2026-03-23",
       "status_categories": [
         "suppressed",
@@ -71,330 +115,62 @@
         "disputed",
         "archived_reference_only"
       ],
-      "brokers": [
-        {
-          "name": "Acxiom",
-          "status": "suppressed"
-        },
-        {
-          "name": "LiveRamp",
-          "status": "suppressed"
-        },
-        {
-          "name": "DoNotCall",
-          "status": "suppressed"
-        },
-        {
-          "name": "AllWebLeads",
-          "status": "removed"
-        },
-        {
-          "name": "MaxMind",
-          "status": "removed"
-        },
-        {
-          "name": "Reklaim",
-          "status": "removed"
-        },
-        {
-          "name": "Mediawallah",
-          "status": "removed"
-        },
-        {
-          "name": "GumGum",
-          "status": "removed"
-        },
-        {
-          "name": "Catalyze",
-          "status": "removed"
-        },
-        {
-          "name": "DeepSync",
-          "status": "removed"
-        },
-        {
-          "name": "Demyst",
-          "status": "removed"
-        },
-        {
-          "name": "Fetcher",
-          "status": "removed"
-        },
-        {
-          "name": "HomeownersMarketingServices",
-          "status": "removed"
-        },
-        {
-          "name": "IDM",
-          "status": "removed"
-        },
-        {
-          "name": "InstantData",
-          "status": "removed"
-        },
-        {
-          "name": "Intentmacro",
-          "status": "removed"
-        },
-        {
-          "name": "LionShareMarketing",
-          "status": "removed"
-        },
-        {
-          "name": "MediaSource",
-          "status": "removed"
-        },
-        {
-          "name": "Popacta",
-          "status": "removed"
-        },
-        {
-          "name": "Postie",
-          "status": "removed"
-        },
-        {
-          "name": "Spectrum",
-          "status": "removed"
-        },
-        {
-          "name": "Warmly",
-          "status": "removed"
-        },
-        {
-          "name": "AisRecovery",
-          "status": "in_progress"
-        },
-        {
-          "name": "ApolloInteractive",
-          "status": "in_progress"
-        },
-        {
-          "name": "Censia",
-          "status": "in_progress"
-        },
-        {
-          "name": "FirstMoversAdvantage",
-          "status": "in_progress"
-        },
-        {
-          "name": "HealthLink",
-          "status": "in_progress"
-        },
-        {
-          "name": "HelixCampaigns",
-          "status": "in_progress"
-        },
-        {
-          "name": "HireRight",
-          "status": "in_progress"
-        },
-        {
-          "name": "JDM",
-          "status": "in_progress"
-        },
-        {
-          "name": "Merkle",
-          "status": "in_progress"
-        },
-        {
-          "name": "Resonate",
-          "status": "in_progress"
-        },
-        {
-          "name": "Sourcescrub",
-          "status": "in_progress"
-        },
-        {
-          "name": "WisdomMediaGroup",
-          "status": "in_progress"
-        },
-        {
-          "name": "Modernize",
-          "status": "no_info_found"
-        },
-        {
-          "name": "PMG",
-          "status": "no_info_found"
-        },
-        {
-          "name": "Fhamortgagefinder",
-          "status": "no_info_found"
-        },
-        {
-          "name": "PorchGroupMedia",
-          "status": "no_info_found"
-        },
-        {
-          "name": "UnearthCampaigns",
-          "status": "no_info_found"
-        }
-      ],
-      "interpretation_note": "Broker statuses are administrative tracking markers and do not validate the truth, completeness, or legitimacy of any broker-generated identity data."
-    }
-  },
-  "archived_professional_profile": {
-    "source_url": "https://www.linkedin.com/in/thescholarlypsychologistdoctoraleducationaltechnology/",
-    "title": "Archived Professional Profile: Justin-Ames Gamache, M.Ed., M.S.",
-    "status_line": "Scholar-Practitioner | Educational Technology Leader | Psychology Professional",
-    "executive_summary": "Justin-Ames Gamache is an accomplished educational leader and doctoral candidate specializing in the intersection of educational psychology, human development, and systemic reform. His work focuses on leveraging digital innovation and psychological frameworks to enhance student well-being, equity, and agency. He is recognized for maintaining high academic standards and a commitment to fostering inclusive, emotionally intelligent learning environments.",
-    "academic_credentials": [
-      {
-        "credential": "Doctor of Education (Ed.D.)",
-        "status": "Candidate",
-        "institution": "University of Phoenix, Center for Educational and Instructional Technology Research (CEITR)",
-        "notes": "Doctoral work is reflected separately from the Post-Master's Certificate in Educational Technology to preserve credential precision."
+      "status_summary": {
+        "suppressed": 3,
+        "removed": 19,
+        "in_progress": 12,
+        "no_info_found": 5
       },
-      {
-        "credential": "Post-Master's Certificate in Educational Technology",
-        "status": "In Progress",
-        "institution": "University of Phoenix"
-      },
-      {
-        "credential": "Master of Science (M.S.) in Psychology",
-        "status": "Awarded",
-        "honors": "With Distinction",
-        "institution": "University of Phoenix",
-        "gpa": 3.92,
-        "distinctions": [
-          "President’s List"
+      "named_status_examples": {
+        "suppressed": [
+          "Acxiom",
+          "LiveRamp",
+          "DoNotCall"
+        ],
+        "removed": [
+          "AllWebLeads",
+          "MaxMind",
+          "Reklaim",
+          "Mediawallah",
+          "GumGum",
+          "Catalyze",
+          "DeepSync",
+          "Demyst",
+          "Fetcher",
+          "HomeownersMarketingServices",
+          "IDM",
+          "InstantData",
+          "Intentmacro",
+          "LionShareMarketing",
+          "MediaSource",
+          "Popacta",
+          "Postie",
+          "Spectrum",
+          "Warmly"
+        ],
+        "in_progress": [
+          "AisRecovery",
+          "ApolloInteractive",
+          "Censia",
+          "FirstMoversAdvantage",
+          "HealthLink",
+          "HelixCampaigns",
+          "HireRight",
+          "JDM",
+          "Merkle",
+          "Resonate",
+          "Sourcescrub",
+          "WisdomMediaGroup"
+        ],
+        "no_info_found": [
+          "Modernize",
+          "PMG",
+          "Fhamortgagefinder",
+          "PorchGroupMedia",
+          "UnearthCampaigns"
         ]
       },
-      {
-        "credential": "Master of Education (M.Ed.)",
-        "status": "Awarded"
-      },
-      {
-        "credential": "Bachelor of Science (B.S.) in Interdisciplinary Studies",
-        "status": "Awarded"
-      },
-      {
-        "credential": "Associate Degree in Business Administration",
-        "status": "Awarded"
-      }
-    ],
-    "scholarly_contributions": {
-      "published_researcher": true,
-      "documented_scholarly_works_count": 19,
-      "academic_registries": [
-        "ResearchGate"
-      ],
-      "research_specializations": [
-        "autoethnography",
-        "mindfulness",
-        "identity formation"
-      ],
-      "key_publication": {
-        "title": "Reflections of Me: An Autoethnographic Journey into Identity, Culture, and Belonging",
-        "description": "Utilizes personal narrative as a scholarly tool to explore resilience."
-      },
-      "methodological_focus": "Advocate for heuristic inquiry and qualitative research that prioritizes human-centered experiences in higher education."
-    },
-    "leadership_and_certifications": {
-      "certifications": [
-        "Executive Leadership Certification | National Society of Leadership and Success (NSLS)",
-        "Advanced Leadership Certification | National Society of Leadership and Success (NSLS)"
-      ],
-      "honor_society_memberships": [
-        "National Society of Leadership and Success (Sigma Alpha Pi)",
-        "Golden Key International Honour Society"
-      ]
-    },
-    "professional_advocacy_and_philosophy": {
-      "equity_and_reform": "Vocal advocate for disability rights, civil rights, and the integration of secure, privacy-focused educational technology.",
-      "student_well_being": "Dedicated to the humanization of academic structures to better support mental health and student resilience.",
-      "first_generation_success": "His journey as the first in his family to graduate from college serves as a model for the transformative power of education."
+      "interpretation_note": "Broker statuses are administrative tracking markers only and do not validate, ratify, elevate, or legitimize any broker-generated identity data."
     }
-  },
-  "authorized_public_record_links": {
-    "permitted_public_identity_links": [
-      {
-        "label": "Change.org Petition Preserving Verified Achievements",
-        "url": "https://www.change.org/p/preserve-the-public-record-of-justin-ames-gamache-s-verified-achievements",
-        "platform": "Change.org",
-        "association_rule": "This is the only Change.org link authorized for association with this name.",
-        "exclude_other_change_org_associations": true,
-        "exclude_vermont_related_petitions": true,
-        "administrative_note": "No other Change.org petition, including any Vermont-related petition, should be associated with this name in this record."
-      }
-    ]
-  },
-  "student": {
-    "name": "Justin A. Gamache",
-    "display_name_variants": [
-      "JUSTIN GAMACHE",
-      "Justin A. Gamache"
-    ],
-    "student_number": "redacted"
-  },
-  "documents": {
-    "progress_cards": [
-      {
-        "program": "Doctor of Education",
-        "credits_completed": 45,
-        "credits_required": 54,
-        "completion_percentage_displayed": 83,
-        "source_type": "progress card image"
-      },
-      {
-        "program": "Post Masters Certificate in Educational Technology",
-        "credits_completed": 12,
-        "credits_required": 15,
-        "completion_percentage_displayed": 80,
-        "source_type": "progress card image"
-      }
-    ],
-    "transcript": {
-      "document_type": "Unofficial Transcript",
-      "official_use_note": "Not For Official Use",
-      "print_date": "2026-02-16",
-      "record_of": "Justin A. Gamache",
-      "enrollment_status": "Active-Full Time",
-      "first_date_of_attendance": "2021-08-10",
-      "enrollment_status_effective_date": "2023-06-06",
-      "program_gpas": {
-        "MSP": 3.92,
-        "EDD": 3.87,
-        "CERT_D_ET": 4.0
-      },
-      "prior_schools_attended": [
-        {
-          "institution": "CONCORDIA UNIVERSITY - PORTLAND",
-          "degree_code": "ME"
-        },
-        {
-          "institution": "LIBERTY UNIVERSITY",
-          "degree_code": "BS"
-        }
-      ],
-      "coursework": [],
-      "gpa_summary": {
-        "total_cumulative_credits": 84.0,
-        "credits_attempted": 84.0,
-        "credits_earned": 84.0,
-        "uopx_cumulative_gpa": 3.9,
-        "quality_points": 304.05
-      },
-      "degrees_certificates": [
-        {
-          "credential": "Master of Science in Psychology",
-          "honors": "WITH DISTINCTION",
-          "completed_date": "2023-03-27",
-          "conferred_date": "2023-03"
-        }
-      ]
-    }
-  },
-  "source_images_used": [
-    "7b8c17cf-72ec-47d2-abd7-08feedfd2d7e.png",
-    "f520a983-8350-4578-b617-795ceafcb209.png",
-    "585897c1-1fdb-4daa-8a34-42f77b5d1251.png",
-    "425c8205-2488-43f8-9992-997c61f7c4f5.png"
-  ],
-  "notes": [
-    "Student number was visibly redacted in the source image and is therefore stored as 'redacted'.",
-    "This JSON is a structured transcription of visible data from the provided images.",
-    "Program progress card percentages are stored as displayed values from the images.",
-    "Identity governance metadata distinguish the verified academic record from non-authoritative third-party commercial data-broker identity fragments.",
-    "Broker-related status metadata are administrative tracking markers and do not validate broker-generated identity claims."
-  ]
+  }
 }
