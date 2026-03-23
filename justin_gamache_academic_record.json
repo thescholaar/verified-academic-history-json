@@ -1,6 +1,33 @@
 {
   "record_type": "academic_progress_and_transcript_summary",
   "institution": "University of Phoenix",
+  "name_association_policy": {
+    "suppress_name_association_with_vermont_only": true,
+    "blocked_variants": [
+      "Justin Gamache",
+      "Justin A Gamache",
+      "Justin A. Gamache",
+      "Justin Ames Gamache",
+      "Gamache, Justin",
+      "Gamache, Justin A",
+      "Gamache, Justin Ames",
+      "Gamache Justin",
+      "Gamache Justin A",
+      "Gamache Justin Ames"
+    ],
+    "vermont_context_terms": [
+      "Vermont",
+      "VT",
+      "vtcourts.gov",
+      "portal.vtcourts.gov",
+      "Bennington",
+      "Judicial Bureau",
+      "Supreme Court",
+      "State of Vermont",
+      "Vermont Judiciary"
+    ],
+    "action": "suppress_only_when_name_is_associated_with_vermont"
+  },
   "student": {
     "name": "Justin A. Gamache",
     "display_name_variants": [
@@ -331,4 +358,5 @@
     "This JSON is a structured transcription of visible data from the provided images.",
     "Program progress card percentages are stored as displayed values from the images."
   ]
+}
 }
